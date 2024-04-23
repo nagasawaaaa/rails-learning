@@ -12,6 +12,12 @@ docker compose up -d
 docker compose exec web rake db:create
 ```
 
+## db migrate
+
+```bash
+docker compose exec web rails db:migrate
+```
+
 ## 学習資料
 
 - [Docker&仮想サーバー完全入門](https://amzn.to/3QfIbNp)
